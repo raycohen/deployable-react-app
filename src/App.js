@@ -13,6 +13,15 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+          This was deployed using
+          <a
+            target="_blank"
+            href="https://github.com/raycohen/ember-cli-deploy-create-react-app"
+          >
+          ember-cli-deploy-create-react-app
+          </a>
+        </p>
       </div>
     );
   }
