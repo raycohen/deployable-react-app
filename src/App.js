@@ -23,6 +23,15 @@ class App extends Component {
           ember-cli-deploy-create-react-app
           </a>
         </p>
+        <p className="App-intro">
+          View the configuration from the create-react-app project at
+          <a
+            target="_blank"
+            href="https://github.com/raycohen/deployable-react-app"
+          >
+          raycohen/deployable-react-app
+          </a>
+        </p>
       </div>
     );
   }
