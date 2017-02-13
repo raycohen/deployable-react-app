@@ -25,6 +25,7 @@ class App extends Component {
         </p>
         <p className="App-intro">
           View the configuration from the create-react-app project at
+          {' '}
           <a
             target="_blank"
             href="https://github.com/raycohen/deployable-react-app"
