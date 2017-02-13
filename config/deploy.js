@@ -12,6 +12,15 @@ module.exports = function(deployTarget) {
     }
   };
 
+  // turn off ember-cli-deploy-build which runs an ember build
+  // the ember-cli-deploy-create-react-app dependency will run a create-react-app
+  // build instead
+  ENV.pipeline = {
+    disabled: {
+      build: true
+    }
+  };
+
   if (deployTarget === 'dev') {
     ENV.build.environment = 'development';
     ENV.redis.url = process.env.REDIS_URL || 'redis://0.0.0.0:6379/';
