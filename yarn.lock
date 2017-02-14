@@ -2479,12 +2479,13 @@ ember-cli-deploy-build@0.1.1:
     glob "^5.0.5"
     rsvp "^3.0.18"
 
-ember-cli-deploy-create-react-app@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-create-react-app/-/ember-cli-deploy-create-react-app-0.0.1.tgz#f11d875008c03350d49af4d86d66b20cb39b5b5d"
+ember-cli-deploy-create-react-app@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-create-react-app/-/ember-cli-deploy-create-react-app-0.0.2.tgz#391f436c452fb32099dc71d817b464700ad52306"
   dependencies:
     ember-cli-babel "^5.1.7"
     ember-cli-deploy-plugin "^0.2.9"
+    node-modules-path "^1.0.1"
 
 ember-cli-deploy-display-revisions@0.2.2:
   version "0.2.2"
@@ -5402,7 +5403,7 @@ node-libs-browser@^0.7.0:
     util "^0.10.3"
     vm-browserify "0.0.4"
 
-node-modules-path@^1.0.0:
+node-modules-path@^1.0.0, node-modules-path@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/node-modules-path/-/node-modules-path-1.0.1.tgz#40096b08ce7ad0ea14680863af449c7c75a5d1c8"
 
@@ -6956,11 +6957,11 @@ sane@^1.1.1, sane@~1.4.1:
     walker "~1.0.5"
     watch "~0.10.0"
 
-sax@1.1.5:
+sax@1.1.5, sax@>=0.6.0:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.1.5.tgz#1da50a8d00cdecd59405659f5ff85349fe773743"
 
-sax@>=0.6.0, sax@^1.2.1, sax@~1.2.1:
+sax@^1.2.1, sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
 
